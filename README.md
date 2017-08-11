@@ -40,7 +40,7 @@ If you use this code for your publications, please cite it as:
         author = "Ahmet Özlü",
         title  = "Real Time Circle Detection and Tracking for Android OS",
         year   = "2017",
-        url    = "https://github.com/ahmetozlu/circle_detection_real_time_android"
+        url    = "https://github.com/ahmetozlu/real_time_circle_detection_android"
     }
 
 ## Author
