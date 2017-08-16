@@ -17,6 +17,37 @@ This repository focuses on real time circle detection with OpenCV for Android OS
   <img src="https://user-images.githubusercontent.com/22610163/29189064-7a16aa8e-7e15-11e7-9fca-3e796c298b07.png">
 </p>
 
+*OnCameraFrame* method which is located at [MainActivity.java](https://raw.githubusercontent.com/ahmetozlu/real_time_circle_detection_android/master/CircleDetection/CircleDetection/src/main/java/src/main/MainActivity.java);
+    
+    public Mat onCameraFrame(CameraBridgeViewBase.CvCameraViewFrame inputFrame) {
+            Mat input = inputFrame.gray();
+            Mat circles = new Mat();
+            Imgproc.blur(input, input, new Size(7, 7), new Point(2, 2));
+            Imgproc.HoughCircles(input, circles, Imgproc.CV_HOUGH_GRADIENT, 2, 100, 100, 90, 0, 1000);
+
+            Log.i(TAG, String.valueOf("size: " + circles.cols()) + ", " + String.valueOf(circles.rows()));
+
+            if (circles.cols() > 0) {
+                for (int x=0; x < Math.min(circles.cols(), 5); x++ ) {
+                    double circleVec[] = circles.get(0, x);
+
+                    if (circleVec == null) {
+                        break;
+                    }
+
+                    Point center = new Point((int) circleVec[0], (int) circleVec[1]);
+                    int radius = (int) circleVec[2];
+
+                    Imgproc.circle(input, center, 3, new Scalar(255, 255, 255), 5);
+                    Imgproc.circle(input, center, radius, new Scalar(255, 255, 255), 2);
+                }
+            }
+
+            circles.release();
+            input.release();
+            return inputFrame.rgba();
+    }
+
 ## Project Demo
 - The demo video of this project is available on YouTube: https://www.youtube.com/watch?v=eWxtt1411Xs
 - The screenshots;
