@@ -10,10 +10,6 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/CircleDetection" />
-            <option value="$PROJECT_DIR$/app" />
-            <option value="$PROJECT_DIR$/appL" />
-            <option value="$PROJECT_DIR$/openCVLibrary249" />
-            <option value="$PROJECT_DIR$/openCVLibrary300" />
             <option value="$PROJECT_DIR$/openCVLibrary310" />
           </set>
         </option>
@@ -21,10 +17,6 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/CircleDetection" />
-            <option value="$PROJECT_DIR$/app" />
-            <option value="$PROJECT_DIR$/appL" />
-            <option value="$PROJECT_DIR$/openCVLibrary249" />
-            <option value="$PROJECT_DIR$/openCVLibrary300" />
             <option value="$PROJECT_DIR$/openCVLibrary310" />
           </set>
         </option>

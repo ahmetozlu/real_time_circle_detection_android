@@ -1,2 +1,2 @@
-include ':app', ':CircleDetection', ':openCVLibrary310', ':openCVLibrary300', ':appL'
-include ':openCVLibrary249'
+include ':CircleDetection', ':openCVLibrary310'
+

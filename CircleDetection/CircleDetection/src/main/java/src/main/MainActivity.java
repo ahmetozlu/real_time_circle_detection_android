@@ -1,3 +1,11 @@
+/*
+----------------------------------------------
+--- Author         : Ahmet Özlü
+--- Mail           : ahmetozlu93@gmail.com
+--- Date           : 1st August 2017
+----------------------------------------------
+*/
+
 package src.main;
 
 import android.support.v7.app.AppCompatActivity;
@@ -13,8 +21,6 @@ import org.opencv.core.Point;
 import org.opencv.core.Scalar;
 import org.opencv.core.Size;
 import org.opencv.imgproc.Imgproc;
-
-//import io.github.plenglin.src.R;
 
 public class MainActivity extends AppCompatActivity implements CameraBridgeViewBase.CvCameraViewListener2 {
 
