@@ -62,7 +62,7 @@ Dependencies:
 **How to build and run this source?**
 
   1. Clone project by using Android Studio
-  2. Select and build module app
+  2. Select and build module *CircleDetection*
 
 ## Citation
 If you use this code for your publications, please cite it as:
