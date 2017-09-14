@@ -1,5 +1,5 @@
 # Real Time Circle Detection and Tracking for Android OS
-This repository focuses on real time circle detection with OpenCV for Android OS. It works very successful even if under adverse lighting conditions.
+This repository focuses on real time circle detection with OpenCV for Android OS. It works very successful even if under bad lighting conditions.
 
 <p align="center">
   <img src="https://user-images.githubusercontent.com/22610163/30448081-7009626a-9996-11e7-8f01-2684755aa5e2.gif">
