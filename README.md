@@ -18,7 +18,7 @@ This repository focuses on real time circle detection with OpenCV on Android OS.
 **The flow diagram of this application;**
 
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/22610163/103457209-1f9a0300-4d0e-11eb-92f1-c340e9e73704.png" | width=480>
+  <img src="https://user-images.githubusercontent.com/22610163/103465149-3f4f1c80-4d4a-11eb-8c8f-2c0b03c6db46.png" | width=480>
 </p>
 
 *OnCameraFrame* method which is located at [MainActivity.java](https://raw.githubusercontent.com/ahmetozlu/real_time_circle_detection_android/master/CircleDetection/CircleDetection/src/main/java/src/main/MainActivity.java);
