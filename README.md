@@ -1,5 +1,5 @@
-# Real Time Circle Detection and Tracking for Android OS
-This repository focuses on real time circle detection with OpenCV for Android OS. ***Please contact if you need professional object detection & tracking & counting projects on Android devices with the super high accuracy.***
+# Real Time Circle Detection and Tracking for Android
+This repository focuses on real time circle detection with OpenCV on Android OS. ***Please contact if you need professional object detection & tracking & counting projects on Android devices with the super high accuracy!***
 
 <p align="center">
   <img src="https://user-images.githubusercontent.com/22610163/30448081-7009626a-9996-11e7-8f01-2684755aa5e2.gif">
@@ -56,7 +56,9 @@ This repository focuses on real time circle detection with OpenCV for Android OS
 - The demo video of this project is available on YouTube: https://www.youtube.com/watch?v=eWxtt1411Xs
 - The screenshots;
 
-![38](https://user-images.githubusercontent.com/22610163/29189984-c845b03a-7e18-11e7-9f96-4a1564747684.jpg) ![13](https://user-images.githubusercontent.com/22610163/29190037-f6bb5ac8-7e18-11e7-829b-97ef38a1ff04.jpg) ![54](https://user-images.githubusercontent.com/22610163/29190038-f6c4e048-7e18-11e7-941b-1cc99fb6c0a2.jpg)
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/22610163/29189984-c845b03a-7e18-11e7-9f96-4a1564747684.jpg" | width=270> <img src="https://user-images.githubusercontent.com/22610163/29190037-f6bb5ac8-7e18-11e7-829b-97ef38a1ff04.jpg" | width=270> <img src="https://user-images.githubusercontent.com/22610163/29190038-f6c4e048-7e18-11e7-941b-1cc99fb6c0a2.jpg" | width=270>
+</p>
 
 ## Installation
 Dependencies:
